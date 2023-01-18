@@ -8,7 +8,7 @@ export default function Experiences() {
     return (
       <Card
         key={flat.id}
-        flat={flat}
+        {...flat}
       />
     )
   })
