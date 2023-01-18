@@ -7,12 +7,8 @@ export default function Experiences() {
   const cards = data.map(flat => {
     return (
       <Card
-        img={flat.coverImg}
-        rating={flat.stats.rating}
-        reviewCount={flat.stats.reviewCount}
-        location={flat.location}
-        title={flat.title}
-        price={flat.price}
+        key={flat.id}
+        flat={flat}
       />
     )
   })

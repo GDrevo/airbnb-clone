@@ -99,3 +99,14 @@
 .card--stats--down {
   padding: 10px;
 }
+
+.badge-text {
+  position: absolute;
+  background-color: rgb(255, 96, 96);
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  bottom: 45px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
